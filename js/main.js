@@ -19,4 +19,4 @@ if (age < 18) {
     ticketPrice = ticketPrice / 100 * 60;
 }
 
-alert(`Il costo del tuo biglietto è: ${ticketPrice.toFixed(2)}€`)
+alert(`Il costo del tuo biglietto è: ${ticketPrice.toFixed(2)}€`);
