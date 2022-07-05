@@ -13,7 +13,7 @@ const age = currentYear - yearOfBirth;
 
 let ticketPrice = priceForKm * travelDistance;
 
-if (age <= 18) {
+if (age < 18) {
     ticketPrice = ticketPrice / 100 * 80;
 } else if (age >= 65) {
     ticketPrice = ticketPrice / 100 * 60;
